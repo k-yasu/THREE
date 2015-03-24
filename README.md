@@ -11,9 +11,9 @@ three.jsには「Canvas 2D Context」と「WebGL Context」によるレンダラ
 
 
 1 レンダラーオブジェクトを作成  
- 主なクラス  
-  new THREE.WebGLRenderer();  
-  new THREE.CanvasRenderer();  
+    主なクラス  
+        new THREE.WebGLRenderer();  
+        new THREE.CanvasRenderer();  
 
 2 自動生成されるcanvas要素の横幅、縦幅を設定  
  主なメソッド  
