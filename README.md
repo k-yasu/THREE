@@ -16,8 +16,8 @@ three.jsには「Canvas 2D Context」と「WebGL Context」によるレンダラ
         new THREE.CanvasRenderer();  
 
 2 自動生成されるcanvas要素の横幅、縦幅を設定  
- 主なメソッド  
-  setSize(横幅, 縦幅)
+    主なメソッド  
+        setSize(横幅, 縦幅)
 
 3 クリアカラー（背景色とアルファ値）の設定  
  主なメソッド  
