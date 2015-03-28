@@ -49,38 +49,37 @@ new THREE.Scene();
 ### 正投影
 物体の見た目の大きさかが視点かの距離によらず描画する方式。
 
-1 カメラオブジェクトを作成
-主なクラス
-透視投影カメラオブジェクト
+1 カメラオブジェクトを作成  
+主なクラス  
+透視投影カメラオブジェクト  
 THREE.PerspectiveCamera(視野角(fov), アスペクト(幅 / 高さ), カメラから視体積の手前までの距離(near), カメラから視体積の奥までの距離(far));
 
-正投影カメラオブジェクト
+正投影カメラオブジェクト  
 THREE.OrthographicCamera(カメラ中心座標から左側の長さ(left), カメラ中心座標から右側の長さ(right), カメラ中心座標から上側の長さ(top), カメラ中心座標から下側の長さ(bottom), カメラから視体積の手前までの距離(near), カメラから視体積の奥までの距離(far));
 
-2 カメラの位置座標(x, y, z)
-プロパティ
-position.x
-position.y
-position.z
+2 カメラの位置座標(x, y, z)  
+プロパティ  
+position.x  
+position.y  
+position.z  
 
-Vector3クラスのコンストラクタを利用して指定もできる
-new THREE.Vector3(x, y, x)
+Vector3クラスのコンストラクタを利用して指定もできる  
+new THREE.Vector3(x, y, x)  
 
-2 カメラの視野の中心座標(x, y, z)
-メソッド
+2 カメラの視野の中心座標(x, y, z)  
+メソッド  
 lookAt({x: value, y: value, z: value});
 
-3 カメラ上のベクトル(x, y, z)
-プロパティ
-up.x
-up.y
-up.z
+3 カメラ上のベクトル(x, y, z)  
+プロパティ  
+up.x  
+up.y  
+up.z  
 
-Vector3クラスのコンストラクタを利用して指定もできる
-new THREE.Vector3(x, y, x)
+Vector3クラスのコンストラクタを利用して指定もできる  
+new THREE.Vector3(x, y, x)  
 
-4 カメラの性質を示すパラメータ
-
+4 カメラの性質を示すパラメータ  
 
 
 ##立体オブジェクトの描画
